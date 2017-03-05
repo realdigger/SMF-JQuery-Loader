@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info">
+
+    <id>digger:jquery_loader</id>
+    <name>JQuery Loader</name>
+    <type>modification</type>
+    <version>1.0</version>
+
+    <install for="2.0 - 2.0.99">
+        <readme type="file">README.md</readme>
+        <require-dir name="Sources" destination="$boarddir"/>
+        <require-dir name="Themes" destination="$boarddir"/>
+        <database>settings.php</database>
+        <database>hooks.php</database>
+        <redirect url="?action=admin;area=modsettings;sa=jquery_loader"/>
+    </install>
+
+    <uninstall for="2.0 - 2.0.99">
+        <remove-file name="$sourcedir/Mod-JQueryLoader.php"/>
+        <remove-dir name="$languagedir/JQueryLoader"/>
+        <remove-dir name="$themedir/scripts/JQueryLoader"/>
+        <remove-dir name="$themedir/css/JQueryLoader"/>
+        <database>hooks.php</database>
+    </uninstall>
+
+</package-info>
