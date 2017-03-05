@@ -20,7 +20,6 @@
         <remove-file name="$sourcedir/Mod-JQueryLoader.php"/>
         <remove-dir name="$languagedir/JQueryLoader"/>
         <remove-dir name="$themedir/scripts/JQueryLoader"/>
-        <remove-dir name="$themedir/css/JQueryLoader"/>
         <database>hooks.php</database>
     </uninstall>
 

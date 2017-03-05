@@ -204,16 +204,16 @@ function getJQueryLoaderSource($source = 'google', $type = 'jq', $version = JQue
 
         case 'local';
             if ($type == 'jq') {
-                return $settings['default_theme_url'] . '/scripts/jquery-' . $modSettings['jquery_loader_jq_version'] . '.min.js';
+                return $settings['default_theme_url'] . '/scripts/JQueryLoader/jquery-' . $modSettings['jquery_loader_jq_version'] . '.min.js';
             } elseif ($type == 'ui') {
-                return $settings['default_theme_url'] . '/scripts/jquery-ui.min.js';
-            } elseif ($type == 'ui') {
-                return $settings['default_theme_url'] . '/css/jquery-ui.css';
+                return $settings['default_theme_url'] . '/scripts/JQueryLoader/jquery-ui.min.js';
+            } elseif ($type == 'ui-css') {
+                return $settings['default_theme_url'] . '/css/JQueryLoader/jquery-ui.css';
             }
             break;
 
         case
-        'jquery';
+            'jquery';
             if ($type == 'jq') {
                 return '//code.jquery.com/jquery-' . $modSettings['jquery_loader_jq_version'] . '.min.js';
             } elseif ($type == 'ui') {
