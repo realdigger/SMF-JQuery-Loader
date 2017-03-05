@@ -1,6 +1,6 @@
 <?php
 /**
- * @package SMF JQuery Loader
+ * @package SMF jQuery Loader
  * @author digger http://mysmf.ru
  * @copyright 2017
  * @license MIT http://opensource.org/licenses/mit-license.php

@@ -1,6 +1,6 @@
 <?php
 /**
- * @package SMF JQuery Loader
+ * @package SMF jQuery Loader
  * @author digger http://mysmf.ru
  * @copyright 2017
  * @license The MIT License (MIT)
@@ -37,7 +37,7 @@ function addJQueryLoaderCopyright()
     global $context;
 
     if ($context['current_action'] == 'credits') {
-        $context['copyrights']['mods'][] = '<a href="http://mysmf.ru/mods/jquery-loader" target="_blank">JQuery Loader</a> &copy; 2017, digger';
+        $context['copyrights']['mods'][] = '<a href="http://mysmf.ru/mods/jquery-loader" target="_blank">jQuery Loader</a> &copy; 2017, digger';
     }
 }
 
