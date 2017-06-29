@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/realdigger/SMF-JQuery-Loader.svg?branch=master)](https://travis-ci.org/realdigger/SMF-JQuery-Loader)
 # SMF jQuery Loader mod
 * **Author:** digger http://mysmf.ru
 * **License:** The MIT License (MIT)
